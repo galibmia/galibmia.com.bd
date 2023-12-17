@@ -6,6 +6,7 @@ import BlogView from '../views/BlogView.vue'
 import BlogItemView from '../views/BlogItemView.vue'
 import ResumeView from '../views/ResumeView.vue'
 import ContactView from '../views/ContactView.vue'
+import Error404View from '../views/Error404View.vue'
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,7 +45,12 @@ const router = createRouter({
 			path: '/contact',
 			name: 'contact',
 			component: ContactView
-		}
+		},
+		{
+			path: '/:pathMatch(.*)*',
+			name: 'Error404View',
+			component: Error404View
+		  }
 	]
 })
 
