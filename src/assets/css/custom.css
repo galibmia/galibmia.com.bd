@@ -1,0 +1,11 @@
+.nav-link, .nav-link:focus {
+    color: #a5b3ce !important;
+}
+
+.light-mode .nav-link, .nav-link:focus {
+    color: #354765 !important;
+}
+
+.featured-project-list .card-text {
+    color: #a5b3ce !important;
+}
