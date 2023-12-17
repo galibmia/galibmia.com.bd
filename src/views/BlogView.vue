@@ -20,7 +20,7 @@
 				<section class="page-intro-section section has-profile-image mx-auto">
 					
 					<div class="profile-holder text-center">
-						<img class="profile-pic rounded-circle" src="assets/images/profile.png" alt="image">
+						<img class="profile-pic rounded-circle" src="@/assets/images/profile.png" alt="image">
 					</div><!--//profile-holder-->
 					<div class="intro-holder">
 						<h2 class="intro-name text-center">My Blog</h2>
